@@ -1,0 +1,58 @@
+h1, h2, h3, h4 {
+	font-family: 'Merriweather', serif;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+
+.bg-frosty {
+	background: linear-gradient(to right, rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.0));
+}
+
+.go-to {
+	padding: 50px;
+	min-width: 20rem;
+	min-height: 5rem;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.card:hover .go-to {
+	opacity: 1;
+}
+
+.card {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	min-width: 20rem;
+	min-height: 100px;
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+.card-title {
+	padding: 20px;
+	text-align: left;	
+	opacity: 1;
+}
+
+.card-img {
+	width: auto;
+	height: auto;
+	max-height: 300px;
+	opacity: 1
+}
+
+.card:hover .card-img{
+	opacity: .6;
+}
